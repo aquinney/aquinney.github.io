@@ -1,0 +1,24 @@
+#profile {
+  float: right;
+  height: 130px;
+  top: 10px;
+  right: 10px;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+
+body{
+    max-width: 30%;
+}
+
+#myname{
+    font-size: x-large;
+    text-align: justify;
+    background-color: darkgoldenrod;
+    border-radius: 20px;
+}
+footer {
+    background-color: darkgoldenrod;
+text-align: center;
+    border-radius: 20px;
+}
