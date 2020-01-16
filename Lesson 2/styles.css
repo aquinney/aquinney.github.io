@@ -1,0 +1,67 @@
+body{
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#lol, #rently, #Codecademy{
+    width: 40%;
+    border: 2px black solid;
+    border-radius: 5px;
+    position: relative;
+    
+}
+.leftcol{
+    float: left;
+    margin: 10px;
+}
+.midcol{
+    margin: 10px;
+}
+.rightcol{
+    float: right;
+    margin: 10px;
+
+}
+
+#Codecademy{
+}
+#lol {
+}
+#rently{
+}
+.leftcol, .midcol, .rightcol{
+    flex: 1 0 5em;
+    max-width: 30%;
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: gray;
+    margin: 80px;
+}
+header{
+    background-color: chocolate;
+    border: 3px black solid;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+}
+.pictitle{
+    background-color: rgb(224, 125, 118);
+    padding: 5px;
+    border-radius: 3px;
+    border: 2px black solid;
+
+}
+.headtitle{
+    text-align: center;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    width: 100%
+}
+.companyname, .pictitle, .url{
+    text-align: center;
+}
