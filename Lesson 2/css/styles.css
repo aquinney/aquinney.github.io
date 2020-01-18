@@ -1,24 +1,31 @@
 body{
     background-color: white;
+    max-width: 1000px;
+    margin: 1rem auto;
 }
-.wrapper{
+main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: lightgray;
-    grid-column-gap: 1em;
+    grid-template-columns: 1fr;
 }
-.wrapper > div{
-    border: 2px black solid;
-    margin-top: 1em;
-    border-radius: 5px;
+main section {
+    background-color: #dddddd;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 3px black solid;
+}
+main section h5, h6{
+    font-family: 'Roboto';
+    font-size: 1.2em;
+}
+main section p{
+    font-family: 'Ibarra Real Nova';
 }
 
 #lol, #rentler, #Codecademy{
-    width: 40%;
-    border: 2px black solid;
+    width: 100%;
+    border: 3px black solid;
     border-radius: 5px;
-    position: relative;
-    
 }
 /* Add your Google Fonts */
 
@@ -31,15 +38,16 @@ body{
 }
 
 header{
-    background-color: chocolate;
+    background-color: lightblue;
     border: 3px black solid;
     border-radius: 10px;
     justify-content: center;
     padding: 5px;
     width: 100%;
+    font-family: 'Roboto';
 }
 .pictitle{
-    background-color: rgb(224, 125, 118);
+    background-color: lightgreen;
     padding: 5px;
     border-radius: 3px;
     border: 2px black solid;
@@ -51,6 +59,9 @@ header{
 footer{
     padding: 10px;
     text-align: center;
+    border: 3px black solid;
+    border-radius: 5px;
+    background-color: lightblue;
     width: 100%
 }
 .companyname, .pictitle, .url{
@@ -78,4 +89,4 @@ footer{
     float: right;
     margin: 10px;
 
-} */
+} This code works, but contradicts the instructions. Oops. */
