@@ -7,8 +7,13 @@ body{
     background-color: lightgray;
     grid-column-gap: 1em;
 }
+.wrapper > div{
+    border: 2px black solid;
+    margin-top: 1em;
+    border-radius: 5px;
+}
 
-#lol, #rently, #Codecademy{
+#lol, #rentler, #Codecademy{
     width: 40%;
     border: 2px black solid;
     border-radius: 5px;
@@ -22,7 +27,7 @@ body{
 }
 #lol {
 }
-#rently{
+#rentler{
 }
 
 header{
