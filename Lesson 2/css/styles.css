@@ -1,0 +1,91 @@
+body{
+    background-color: white;
+    max-width: 1000px;
+    margin: 1rem auto;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+main section {
+    background-color: #dddddd;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 3px black solid;
+}
+main section h5, h6{
+    font-family: 'Roboto';
+    font-size: 1.2em;
+}
+main section p{
+    font-family: 'Ibarra Real Nova';
+}
+
+#lol, #rentler, #Codecademy{
+    width: 100%;
+    border: 3px black solid;
+    border-radius: 5px;
+}
+/* Add your Google Fonts */
+
+
+#Codecademy{
+}
+#lol {
+}
+#rentler{
+}
+
+header{
+    background-color: lightblue;
+    border: 3px black solid;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+    font-family: 'Roboto';
+}
+.pictitle{
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 3px;
+    border: 2px black solid;
+
+}
+.headtitle{
+    text-align: center;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    border: 3px black solid;
+    border-radius: 5px;
+    background-color: lightblue;
+    width: 100%
+}
+.companyname, .pictitle, .url{
+    text-align: center;
+}
+
+/* .leftcol, .midcol, .rightcol{
+    flex: 1 0 5em;
+    max-width: 30%;
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: gray;
+    margin: 80px;
+} */
+
+/* .leftcol{
+    float: left;
+    margin: 10px;
+}
+.midcol{
+    margin: 10px;
+}
+.rightcol{
+    float: right;
+    margin: 10px;
+} This code works, but contradicts the instructions. Oops. */
