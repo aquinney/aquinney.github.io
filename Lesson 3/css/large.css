@@ -1,9 +1,0 @@
-@media (min-width: 65em){
-    main {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    section:nth-child(3) {
-        grid-column: span 1;
-      }
-
-}
