@@ -2,14 +2,20 @@
 <html lang="en">
 
 <head>
-    <title>Target Audience</title>
+    <title>Site Plan Document</title>
     <meta charset="UTF-8">
+    <meta name="author" content="Austin Quinney">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/Lesson 3/css/styles.css">
+    <link rel="normalize" href="css/normalize.css">
 </head>
 
 <body>
+    <header>
+        <img src="/Lesson 3/images/logo.png" alt="logo" id="toplogo">
+        <h1>What's the Weather?</h1>
+    </header>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -18,6 +24,7 @@
             <li><a href="typography.html">Typography</a></li>
         </ul>
     </nav>
+
     <main>
         <h1>Target Audience</h1>
         <p><strong>Who:</strong> Anybody who can read and navigate the internet.</p>
@@ -43,6 +50,16 @@
         <p>4. Can I go for a jog, or do I need to use my indoor treadmill?</p>
         <p>5. Will the roads be slick on my way into work this morning?</p>
     </main>
+    <footer>
+        <p>  
+             2020 | Austin Quinney | Utah
+             <a href="https://www.byui.edu/online">BYUI Online Learning</a></a>
+            </p>
+            <p>
+                Last updated <span id="lastDate"></span><span id="lastTime"></span>
+            </p>
+    </footer>
+    <script src="js/timeupdate.js"></script>
 </body>
 
 </html>

@@ -4,12 +4,18 @@
 <head>
     <title>Site Plan Document</title>
     <meta charset="UTF-8">
+    <meta name="author" content="Austin Quinney">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/Lesson 3/css/styles.css">
+    <link rel="normalize" href="css/normalize.css">
 </head>
 
 <body>
+    <header>
+        <img src="/Lesson 3/images/logo.png" alt="logo" id="toplogo">
+        <h1>What's the Weather?</h1>
+    </header>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -44,6 +50,16 @@
         </p>
         <img src="/Lesson 3/images/logo.png" alt="logo" width="15%">
     </main>
+    <footer>
+        <p>  
+             2020 | Austin Quinney | Utah
+             <a href="https://www.byui.edu/online">BYUI Online Learning</a></a>
+            </p>
+            <p>
+                Last updated <span id="lastDate"></span><span id="lastTime"></span>
+            </p>
+    </footer>
+    <script src="js/timeupdate.js"></script>
 </body>
 
 </html>
