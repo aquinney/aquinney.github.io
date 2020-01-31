@@ -42,7 +42,7 @@ nav ul.hide {
 }
 
 nav {
-    background-color: #006DAA;
+    background-color: #C47335;
 }
 
 nav button {
@@ -65,7 +65,7 @@ nav ul li a {
     text-align: center;
     font-family: 'Oswald', sans-serif;
     padding: 1em;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid black;
     font-size: 1.3em;
 }
 
@@ -84,4 +84,12 @@ footer {
     font-size: 1.2em;
     font-family: 'Oswald', sans-serif;
     flex-direction: column;
+}
+footer p{
+    color: black;
+}
+
+/*WAVE was throwing a contrast error from purple link*/
+footer :visited, :hover, :active {
+    color: inherit;
 }
