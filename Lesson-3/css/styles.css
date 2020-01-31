@@ -26,10 +26,28 @@ header h1{
     left: 10px;
     margin-right: 10px;
 }
+#domainname{
+    width: 55%
+}
+#sitelogo {
+    width: 15%;
+}
+#girl{
+    height: 300px;
+}
+#oldman {
+    height: 300px;
+}
+#colors {
+    width: 70%;
+}
 nav{
     background-color: cadetblue;
 }
-
+nav ul {
+    justify-content: center;
+    align-items: center;
+}
 nav li{
     list-style-type: none;
     display: inline-block;
@@ -37,6 +55,7 @@ nav li{
 nav ul li a{
     display: block;
     text-decoration: none;
+    color: inherit;
     padding: 1rem;
     text-align: center;
 }
