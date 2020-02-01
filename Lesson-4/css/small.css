@@ -77,7 +77,7 @@ nav ul li a {
 
 footer {
     display: flex;
-    background-color: #758E4F;
+    background-color: #A2BC85; /* Contrast Ratio should be 4.5:1 exactly */
     justify-content: center;
     align-items: center;
     padding: 5px;
