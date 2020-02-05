@@ -1,0 +1,25 @@
+@media only screen and (min-width: 40rem) {
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        padding: .8rem 1rem;
+        border: none;
+    }
+
+    main,
+    footer {
+        margin: 1em auto;
+        max-width: 1500px;
+    }
+
+    /*Get rid of button*/
+    nav button {
+        display: none;
+    }
+}
