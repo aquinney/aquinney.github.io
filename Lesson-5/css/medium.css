@@ -17,6 +17,45 @@
         margin: 1em auto;
         max-width: 1500px;
     }
+    #hero-image {
+        height: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .herodiv {
+        justify-content: center;
+        align-items: center;
+    }
+    .stats {
+        font-size: 1rem;
+        left: 310px;
+        top: 80px;
+    }
+    .forecastdiv {
+        max-width: 75%;
+        background-color: blue;
+    }
+    #forecast {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        border: 3px black solid;
+    }
+    #forecast th {
+        font-size: 1.2rem;
+        font-weight: bold;
+        background-color: #758E4F;
+        text-align: center;
+    }
+    #forecast td {
+        text-align: center;
+    }
+
+    #forecast, img{
+        height: 50px;
+    }
 
     /*Get rid of button*/
     nav button {
