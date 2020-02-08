@@ -13,6 +13,7 @@ document.getElementById("currentDate").textContent = `${dayName}, ${day} ${month
 function toggleMenu() {
     document.getElementById("navigation").classList.toggle("hide")
 }
+
 let options = {
     day:"numeric",
     month:"numeric",

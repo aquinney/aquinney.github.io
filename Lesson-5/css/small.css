@@ -7,6 +7,22 @@
 *JS Banner at top
 *Content in filler sections
 */
+#announcement {
+    background-color: #e5e600;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+#announcement h2, h3 {
+    text-align: center;
+}
+#announcement h2 {
+    font-size: 1.2rem;
+}
+#announcement h3 {
+    font-size: .8rem;
+}
 .box {
     display: flex;
     align-items: center;
@@ -23,11 +39,23 @@
 #hero-image{
     height: 250px;
 }
+.articlediv {
+    padding: 1em;
+    margin: 30px;
+    border: 1px black solid;
+    background-color: chocolate;
+}
+#park {
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 2px black solid;
+}
 .herodiv {
     margin: 10px auto;
     position: relative;
     padding: 2em;
-    background-color: lightgreen;
 }
 .stats {
     position: absolute;
@@ -116,6 +144,23 @@ li a:hover{
     display: flex;
     justify-content: center;
 }
+#map {
+display: none;
+}
+.contactinfo {
+    padding: 1em;
+    margin: 30px;
+    border: 1px black solid;
+    background-color: chocolate;
+}
+.contactinfo h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.contactinfo p {
+    padding: 20px;
+    text-align: center;
+}
 
 footer {
     display: flex;
@@ -123,6 +168,8 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 0;
+    width: 100%;
+    border-radius: 0px 0px 15px 15px;
     font-size: 1.2em;
     font-family: 'Oswald', sans-serif;
     flex-direction: column;
