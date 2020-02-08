@@ -24,3 +24,10 @@ document.getElementById('lastDate').textContent = lastDate.toLocaleDateString("e
 document.getElementById('lastTime').textContent = lastDate.toLocaleTimeString("en-US", {
     hour12: true
 });
+
+var today = new Date();
+var currentDay = today.getDay();
+if (currentDay == 6)
+$(".announcement").show();
+
+else $(".announcement").hide();
