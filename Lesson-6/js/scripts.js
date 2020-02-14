@@ -1,3 +1,5 @@
+
+// Display "last updated" and "current date" in footer
 const mlist = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 const m = new Date()
 const monthName = mlist[m.getMonth()]
@@ -10,9 +12,6 @@ const day = new Date().getDate()
 
 document.getElementById("currentDate").textContent = `${dayName}, ${day} ${monthName} ${year}`;
 
-function toggleMenu() {
-    document.getElementById("navigation").classList.toggle("hide")
-}
 
 let options = {
     day: "numeric",
@@ -25,9 +24,14 @@ document.getElementById('lastTime').textContent = lastDate.toLocaleTimeString("e
     hour12: true
 });
 
+// Button
+function toggleMenu() {
+    document.getElementById("navigation").classList.toggle("hide")
+}
+
+// Banner at top of screen
 var today = new Date();
 var currentDay = today.getDay();
-if (currentDay == 6)
-$(".announcement").show();
-
-else $(".announcement").hide();
+if (currentDay == 5) {
+    document.getElementById("announcement").style.display = "block";
+}
