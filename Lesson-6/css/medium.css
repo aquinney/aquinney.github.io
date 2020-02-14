@@ -1,0 +1,131 @@
+@media only screen and (min-width: 40rem) {
+
+    #announcement h2 {
+        font-size: 2.2rem;
+    }
+
+    #announcement h3 {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        display: inline-block;
+        padding: .8rem 1rem;
+        border: none;
+    }
+
+    /*Nav bar will appear when off(small to large)*/
+    nav ul.hide {
+        display: flex;
+        flex-direction: row;
+    }
+
+    main,
+    footer {
+        margin: 1em auto;
+        max-width: 1500px;
+    }
+
+    #hero-image {
+        height: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #park {
+        float: right;
+        height: 250px;
+        max-width: 100%;
+        width: auto;
+        top: 10px;
+    }
+
+    .articlediv p {
+        font-size: 1.1rem;
+        padding: 2rem;
+        width: 90%;
+    }
+
+    .herodiv {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stats {
+        font-size: 1rem;
+        top: 15%;
+        left: 15%;
+        max-width: 210px;
+    }
+    .stats p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .forecastdiv {
+        width: 55%;
+        background-color: blue;
+    }
+
+    #forecast {
+        display: table;
+        margin: 15px;
+        width: 100%;
+        table-layout: fixed;
+        border: 3px black solid;
+    }
+
+    #forecast table,
+    th,
+    td {
+        padding: 5px;
+        border: 1.5px black solid;
+        border-collapse: collapse;
+    }
+
+    #forecast th {
+        font-size: 1.2rem;
+        font-weight: bold;
+        background-color: #758E4F;
+    }
+
+    #forecast td {
+        text-align: center;
+    }
+
+    #forecast,
+    img {
+        height: 50px;
+    }
+
+    #map {
+        height: 200px;
+        float: left;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border: 2px black solid;
+    }
+
+    .contactinfo {
+        padding: 2rem;
+    }
+
+    .contactinfo p {
+        padding: 2rem;
+    }
+
+    /*Get rid of button*/
+    nav button {
+        display: none;
+    }
+}
