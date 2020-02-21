@@ -176,6 +176,7 @@ li a:hover {
 
 .galleryHeader {
     font-family: 'Gelasio', sans-serif;
+    font-size: 2rem;
 }
 
 .weatherGallery {
@@ -209,8 +210,6 @@ li a:hover {
 .picture:hover {
     background-color: #CE844B;
     padding: .1rem;
-    -webkit-box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.6);
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.6);
 }
 
