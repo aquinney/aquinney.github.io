@@ -12,7 +12,12 @@ img {
     min-width: 100px;
     min-height: 150px;
     background-color: #999999;
+    filter: blur(0em);
+    transition: filter 0.5s;
 }
 h1 {
     font-size: 3rem;
+}
+img[data-src] {
+    filter: blur(0.2em);
 }
