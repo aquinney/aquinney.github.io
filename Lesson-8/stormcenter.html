@@ -49,13 +49,14 @@
 
                 <div class="form-box">
                     <label for="fullname">Full Name:
-                        <input type="text" id="fullname" name="fullname" placeholder="Full Name" pattern="[A-Za-z]{5,} required>
+                        <input type="text" id="fullname" name="fullname" placeholder="Full Name" pattern="[A-Za-z]{5,}"
+                        oninvalid="InvalidMsg(this);" oninput="InvalidMsg(this);" required>
                     </label>
                 </div>
-                <div class="form-box">
-                    <label for="email">E-Mail:
-                        <input type="email" id="email" name="email" placeholder="example@hotmail.com">
-                    </label>
+                <div class= "form-box" >
+                        <label for="email">E-Mail:
+                            <input type="email" id="email" name="email" placeholder="example@hotmail.com">
+                        </label>
                 </div>
                 <div class="form-box">
                     <label for="tel">Phone Number:
@@ -133,8 +134,8 @@
                             placeholder="Feel free to include any additional information here..."></textarea>
                     </label>
                 </div>
-                <input type="submit" value="Submit" id="submit">
             </fieldset>
+            <input type="submit" value="Submit" id="submit">  <!-- This line was inside of the fieldset, causing the submit button to fail. Oops!-->
         </form>
     </main>
     <footer>
