@@ -1,0 +1,42 @@
+body main {
+    text-align: center;
+}
+form {
+    display: block;
+}
+.form-box {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+main input {
+    padding: 10px;
+}
+main input, select, textarea {
+    border-radius: 5px;
+}
+fieldset {
+margin: 30px;
+border: 1px solid black;
+border-radius: 10px;
+}
+.form-box input:required {
+    border-left: red solid 5px;
+}
+legend {
+    font-size: 1.3rem;
+    padding: 15px;
+}
+.form-box label {
+    flex-basis: 9rem;
+}
+#infoDiv {
+    display: block;
+}
+#submit {
+    border: 1px solid black;
+    background-color: #C47335;
+}
+.stormtitle {
+    font-size: 2.5rem;
+}
