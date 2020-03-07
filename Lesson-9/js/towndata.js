@@ -44,7 +44,7 @@ fetch(requestURL)
                 infodiv.appendChild(founded);
                 infodiv.appendChild(population);
                 infodiv.appendChild(rainfall);
-                
+
                 document.querySelector('div.cards').appendChild(card);
             }
         }

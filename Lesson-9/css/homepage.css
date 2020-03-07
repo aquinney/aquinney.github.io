@@ -2,15 +2,29 @@ section {
     text-align: center;
     background-color: #C47335;
 }
+
+section h2 {
+    font-size: 2.0rem;
+}
+
+section h4 {
+    font-size: 1.3rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 #Title {
     background-color: #758E4F;
 }
+
 body {
     margin: 8px;
 }
+
 section div {
     padding: 5px;
 }
+
 .cards {
     display: grid;
     grid-template-columns: 1fr;
@@ -23,24 +37,29 @@ section div {
     width: 90%;
     border-radius: 5px;
 }
+
 @media only screen and (min-width: 32rem) {
     main {
         max-width: 100%;
     }
+
     .content {
         display: flex;
         flex-direction: row;
         justify-content: center;
         text-align: left;
     }
+
     .content img {
         width: 400px;
     }
+
     section:nth-child(odd) .content {
         flex-direction: row-reverse;
     }
 
 }
+
 @media only screen and (min-width: 65rem) {
     main {
         max-width: 100%;
@@ -51,10 +70,12 @@ section div {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 5px;
     }
+
     .content {
         display: block;
         text-align: center;
     }
+
     .content img {
         width: 300px;
     }
