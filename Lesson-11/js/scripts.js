@@ -35,3 +35,8 @@ var currentDay = today.getDay();
 if (currentDay == 5) {
     document.getElementById("announcement").style.display = "block";
 }
+
+// stormcenter slider bar
+function adjustSeverity(severity) {
+    document.getElementById("stormseverity").innerHTML = severity;
+}
