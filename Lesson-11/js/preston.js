@@ -1,5 +1,6 @@
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=52f82d80daa5fdbda89179d4e33ae167'
 const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=52f82d80daa5fdbda89179d4e33ae167'
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json'
 
 const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
@@ -30,3 +31,24 @@ fetch(forecastURL)
             days[i].textContent = day;
         }
     })
+
+fetch(requestURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        const towns = jsonObject['towns'];
+        console.table(jsonObject);
+        for (let i = 0; i < towns.length; i++) {
+            if (towns[i].name == "Preston") {
+                let event = document.createElement('section');
+                for (let x = 0; x < towns[i].events.length; x++) {
+                    let p = document.createElement('p');
+                    p.textContent = towns[i].events[x];
+                    event.appendChild(p);
+                }
+
+                document.querySelector('div.events').appendChild(event);
+            }
+        }
+    });

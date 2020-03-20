@@ -40,7 +40,7 @@
         margin-right: auto;
     }
 
-    #park {
+    .park {
         float: right;
         height: 250px;
         max-width: 100%;
@@ -75,7 +75,11 @@
         width: 55%;
         background-color: blue;
     }
-
+    .events{
+        border: black 2px solid;
+        width: 300px;
+        text-align: center;
+    }
     #forecast {
         display: table;
         margin: 15px;
