@@ -18,9 +18,8 @@ fetch(requestURL)
             h2.textContent = fullname;
             birthdate.textContent = 'Date of Birth: ' + prophets[i].birthdate;
             birthplace.textContent = 'Place of Birth: ' + prophets[i].birthplace;
-            
-            image.setAttribute('src', prophets[i].imageurl);
 
+            image.setAttribute('src', prophets[i].imageurl);
             image.setAttribute('alt', alttext);
             image.setAttribute('title', alttext);
 
@@ -31,4 +30,4 @@ fetch(requestURL)
 
             document.querySelector('div.cards').appendChild(card);
         }
-    });
+    }); 

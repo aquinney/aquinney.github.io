@@ -1,0 +1,28 @@
+{
+  "guides": [
+    {
+      "name": "Joseph",
+      "photo": "joseph.jpeg",
+      "level": "Pro",
+      "experience": "12 Years",
+      "email": "Joseph@salmonriverus.com",
+      "biography": "Joseph loves to talk about nature, and share what he knows with others!"
+    },
+    {
+      "name": "Mary",
+      "photo": "mary.jpeg",
+      "level": "Expert",
+      "experience": "7 Years",
+      "email": "Mary@salmonriverus.com",
+      "biography": "Mary has always loved water, it's practically her natural habitat!"
+    },
+    {
+      "name": "Veronica",
+      "photo": "veronica.jpeg",
+      "level": "Insane",
+      "experience": "23 Years",
+      "email": "Veronica@salmonriverus.com",
+      "biography": "Veronica has been doing river guides her whole life all over the world!"
+    }
+  ]
+} 

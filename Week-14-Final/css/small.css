@@ -1,0 +1,198 @@
+#toplogo {
+    width: 105px;
+}
+
+#hero-image {
+    width: 90%;
+}
+
+header {
+    background-color: #6AD5CB;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*                           TITLE @ TOP                                   */
+#Title {
+    display: flex;
+    flex-direction: column;
+}
+
+#Title h1,
+h3 {
+    font-size: 1.8rem;
+    margin: 0 0 0 15px;
+}
+
+#location {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav {
+    background-color: #85877C;
+}
+
+nav button {
+    margin: .2em;
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding: .6em;
+    border-top: 1px solid black;
+    font-size: 1.1em;
+}
+
+li a:hover {
+    background-color: #a05e2c;
+    color: #a02c2c;
+    padding: .3rem;
+}
+
+.active {
+    border-bottom: 3px black solid;
+}
+
+#buttonDiv {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#map {
+    display: none;
+}
+/*                         HOME PAGE STYLES                               */
+#top {
+    background-color: #7FBEAB;
+    font-family: 'Bangers', sans-serif;
+    font-size: 1.2rem;
+}
+#top img{
+    margin: 25px 0 25px 0;
+}
+#mid {
+    background-color: #7E998A;
+    font-family: 'Bangers', sans-serif;
+    font-size: 1.2rem;
+}
+#mid img{
+    margin: 25px 0 25px 0;
+}
+#bot {
+    background-color: #7FBEAB;
+    font-family: 'Bangers', sans-serif;
+    font-size: 1.2rem;
+}
+#bot img{
+    margin: 25px 0 25px 0;
+}
+.link :visited,
+:hover,
+:active {
+    color: inherit;
+}
+.link {
+    font-size: 2.0rem;
+}
+/*                         CONTACT INFO                             */
+.contactinfo {
+padding: 10px 0 10px 0;
+    background-color: #7E998A;
+}
+
+.contactinfo h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.contactinfo p {
+    text-align: center;
+}
+/*                         RESERVATION PAGE                             */
+#trip1{
+    background-color: #7FBEAB;
+    padding: 10px 0 10px 0;
+}
+#trip1 h4 {
+    font-size: 1.5rem;
+}
+#trip2{
+    background-color: #7E998A;
+    padding: 10px 0 10px 0;
+}
+#trip2 h4 {
+    font-size: 1.5rem;
+}
+#trip3{
+    background-color: #7FBEAB;
+    padding: 10px 0 10px 0;
+}
+#trip3 h4 {
+    font-size: 1.5rem;
+}
+main form {
+    display: block;
+ text-align: center;
+}
+.form-box {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.form-box label {
+    flex-basis: 9rem;
+}
+main input {
+    padding: 5px;
+}
+main input, select, textarea {
+    border-radius: 5px;
+}
+main {
+    max-width: 800px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    background-color: #6AD5CB;
+    /* Contrast Ratio should be 4.5:1 exactly */
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    border-radius: 0px 0px 15px 15px;
+    font-size: 1.2em;
+    font-family: 'Oswald', sans-serif;
+    flex-direction: column;
+}
+
+footer p {
+    color: black;
+}
+
+/*WAVE was throwing a contrast error from purple link*/
+footer :visited,
+:hover,
+:active {
+    color: inherit;
+}
