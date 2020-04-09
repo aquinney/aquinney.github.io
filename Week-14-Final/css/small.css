@@ -130,6 +130,9 @@ padding: 10px 0 10px 0;
 .contactinfo p {
     text-align: center;
 }
+#sources p {
+    font-size: .9rem;
+}
 /*                         RESERVATION PAGE                             */
 #trip1{
     background-color: #7FBEAB;
