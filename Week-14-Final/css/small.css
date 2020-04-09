@@ -105,6 +105,9 @@ li a:hover {
 #bot img{
     margin: 25px 0 25px 0;
 }
+#top h2, #mid h2, #bot h2 {
+    padding-top: 20px;
+}
 .link :visited,
 :hover,
 :active {
